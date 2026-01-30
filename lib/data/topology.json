@@ -1,0 +1,30 @@
+﻿{
+  "project": "Lotos Topology MVP",
+  "version": "1.0",
+  "nodes": [
+    {"id":"hetzner","title":"Hetzner Cloud","type":"infrastructure","category":"Infraestructura","tech":"VPS + Bare Metal","cost":140,"perf":78},
+    {"id":"aws","title":"AWS Core","type":"infrastructure","category":"Infraestructura","tech":"EC2 + S3","cost":320,"perf":85},
+    {"id":"gcp","title":"Google Cloud","type":"infrastructure","category":"Infraestructura","tech":"GCE + GCS","cost":300,"perf":84},
+    {"id":"vpc","title":"VPC / Network","type":"infrastructure","category":"Infraestructura","tech":"Subnets + VPN","cost":15,"perf":80},
+    {"id":"loadbalancer","title":"Load Balancer","type":"infrastructure","category":"Infraestructura","tech":"L4/L7","cost":18,"perf":82},
+    {"id":"object-storage","title":"Object Storage","type":"infrastructure","category":"Infraestructura","tech":"S3 Compatible","cost":12,"perf":78},
+    {"id":"postgres","title":"PostgreSQL","type":"db","category":"Bases de datos","tech":"Postgres + Replicas","cost":45,"perf":86},
+    {"id":"mysql","title":"MySQL","type":"db","category":"Bases de datos","tech":"MySQL 8","cost":25,"perf":78},
+    {"id":"mongodb","title":"MongoDB","type":"db","category":"Bases de datos","tech":"NoSQL","cost":40,"perf":76},
+    {"id":"redis","title":"Redis","type":"db","category":"Bases de datos","tech":"Cache + Streams","cost":18,"perf":88},
+    {"id":"ubuntu","title":"Ubuntu LTS","type":"os","category":"Sistemas Operativos","tech":"22.04 LTS","cost":0,"perf":75},
+    {"id":"debian","title":"Debian","type":"os","category":"Sistemas Operativos","tech":"12 Bookworm","cost":0,"perf":76},
+    {"id":"windows","title":"Windows Server","type":"os","category":"Sistemas Operativos","tech":"2022","cost":60,"perf":70},
+    {"id":"alpine","title":"Alpine","type":"os","category":"Sistemas Operativos","tech":"3.x","cost":0,"perf":78},
+    {"id":"nodejs","title":"Node.js","type":"runtime","category":"Runtimes","tech":"20 LTS","cost":0,"perf":80},
+    {"id":"python","title":"Python","type":"runtime","category":"Runtimes","tech":"3.12","cost":0,"perf":72},
+    {"id":"java","title":"Java","type":"runtime","category":"Runtimes","tech":"21 LTS","cost":0,"perf":84},
+    {"id":"go","title":"Go","type":"runtime","category":"Runtimes","tech":"1.22","cost":0,"perf":86},
+    {"id":"next","title":"Next.js","type":"frontend","category":"Frontend","tech":"14.x","cost":0,"perf":82},
+    {"id":"tailwind","title":"Tailwind","type":"frontend","category":"Frontend","tech":"Utility CSS","cost":0,"perf":74},
+    {"id":"express","title":"Express","type":"backend","category":"Backend","tech":"Node API","cost":0,"perf":74},
+    {"id":"nestjs","title":"NestJS","type":"backend","category":"Backend","tech":"Node + TS","cost":0,"perf":80},
+    {"id":"fastapi","title":"FastAPI","type":"backend","category":"Backend","tech":"Python API","cost":0,"perf":78},
+    {"id":"spring","title":"Spring Boot","type":"backend","category":"Backend","tech":"Java stack","cost":0,"perf":83}
+  ]
+}
